@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SlimeFactory</string>
+    <string name="bk">bk</string>
+    <string name="zoe">zoe</string>
+    <string name="lola">lola</string>
+    <string name="_0">0</string>
+    <string name="_3_crunchy">+3 Crunchy</string>
+    <string name="_2_gummy">+2 Gummy</string>
+    <string name="_1_jelly">+1 Jelly</string>
+    <string name="clean">clean</string>
 </resources>

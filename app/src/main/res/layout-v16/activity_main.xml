@@ -46,42 +46,47 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="0"
+                android:text="@string/_0"
                 android:textColor="@android:color/holo_orange_light"
                 android:textSize="80sp" />
 
 
             <Button
+                android:id="@+id/crunchy_z"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:background="#7385e6e0"
+                android:background="@drawable/crunchy_z"
+                android:backgroundTint="#7385e6e0"
                 android:fontFamily="@font/cherry_cream_soda"
                 android:onClick="addThreeForTeamZoe"
-                android:text="+3 Crunchy"
+                android:text="@string/_3_crunchy"
                 android:textAllCaps="true"
-                android:textColor="#FF1234F4" />
+                android:textColor="#FF1234F4"
+                />
 
 
             <Button
+                android:id="@+id/gummy_z"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:background="#B34EEA3D"
                 android:fontFamily="@font/cherry_cream_soda"
                 android:onClick="addTwoForTeamZoe"
-                android:text="+2 Gummy"
+                android:text="@string/_2_gummy"
                 android:textAllCaps="true"
                 android:textColor="#127b10" />
 
             <Button
+                android:id="@+id/jelly_z"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:background="#73ecd66a"
                 android:fontFamily="@font/cherry_cream_soda"
                 android:onClick="addOneForTeamZoe"
-                android:text="+1 Jelly"
+                android:text="@string/_1_jelly"
                 android:textAllCaps="true"
                 android:textColor="#bd0aea" />
 
@@ -100,7 +105,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/cherry_cream_soda"
                 android:gravity="center"
-                android:text="lola"
+                android:text="@string/lola"
                 android:textAllCaps="true"
                 android:textColor="@android:color/holo_orange_light"
                 android:textSize="40sp" />
@@ -111,41 +116,45 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="0"
+                android:text="@string/_0"
                 android:textColor="@android:color/holo_orange_light"
                 android:textSize="80sp" />
 
 
             <Button
+                android:id="@+id/crunchy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:background="#7385e6e0"
                 android:fontFamily="@font/cherry_cream_soda"
                 android:onClick="addThreeForTeamLola"
-                android:text="+3 Crunchy"
+                android:text="@string/_3_crunchy"
                 android:textAllCaps="true"
-                android:textColor="#FF1234F4" />
+                android:textColor="#FF1234F4"
+                />
 
             <Button
+                android:id="@+id/gummy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:background="#b34eea3d"
                 android:fontFamily="@font/cherry_cream_soda"
                 android:onClick="addTwoForTeamLola"
-                android:text="+2 Gummy"
+                android:text="@string/_2_gummy"
                 android:textAllCaps="true"
                 android:textColor="#127b10" />
 
             <Button
+                android:id="@+id/jelly"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:background="#73ecd66a"
                 android:fontFamily="@font/cherry_cream_soda"
                 android:onClick="addOneForTeamLola"
-                android:text="+1 Jelly"
+                android:text="@string/_1_jelly"
                 android:textAllCaps="true"
                 android:textColor="#bd0aea" />
         </LinearLayout>
@@ -162,7 +171,7 @@
         android:background="#97ec20d8"
         android:fontFamily="@font/cherry_cream_soda"
         android:onClick="resetScore"
-        android:text="clean"
+        android:text="@string/clean"
         android:textAllCaps="true"
         android:textColor="@android:color/holo_orange_light" />
 
